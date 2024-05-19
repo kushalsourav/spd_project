@@ -1,0 +1,63 @@
+.eventFormContainer {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--secondary-color-a);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; 
+    z-index: 9999; 
+    color: var(--white)
+}
+
+.eventFormTitle {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.eventForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.eventFormLabel {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.eventFormInput,
+.eventFormSelect {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.eventFormSelect[multiple] {
+    height: 100px;
+}
+
+.eventFormSubmit {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.eventFormSubmit:hover {
+    background-color: var(--secondary-color-a);
+    border: 1px solid var(--white);
+}
+
+.flex {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }

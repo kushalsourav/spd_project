@@ -1,0 +1,53 @@
+.period_card {
+    width: auto;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-left: 5px solid olivedrab;
+    padding: 10px;
+    align-items: center;
+    background-color: #eaeaea;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.period_body-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.period_heading {
+    font-size: 20px;
+    font-weight: 500;
+    text-size-adjust: auto;
+}
+
+.period_professor {
+    font-size: 12px;
+    font-weight: 500;
+}
+.period_room {
+    background-color: #53dada;
+    padding: 2px 5px;
+    padding-bottom: 4px;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 001px;
+    border-radius: 2px;
+    margin-left: 10px;
+}
+
+.period_time {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.period_label {
+    font-size: 10px;
+    background-color: #a065d8;
+    color: #ececec;
+    padding: 8px 12px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}

@@ -1,0 +1,82 @@
+.search-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+
+.search-bar {
+
+    width: 100%;
+    
+}
+
+.search-bar input[type="text"] {
+    width: 40%;
+    padding: 10px;
+    border-radius: 5px;
+    background: var(--secondary-color-a);
+    color: var(--white);
+    border: none;
+    margin-right: 10px;
+}
+.search-bar input[type="text"]:focus {
+    border: none;
+    outline:none;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    border: none;
+    background-color: var(--secondary-color-a);
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    float: right;
+}
+
+
+
+.search-bar select {
+    padding: 10px;
+    border-radius: 5px;
+    appearance: none;
+    background: var(--secondary-color-a);
+    color: var(--white);
+    cursor: pointer;
+    border: none;
+}
+
+.search-bar select:focus {
+    outline: none;
+}
+
+.search-bar select option {
+    padding: 10px;
+}
+
+.search-bar select option:first-child {
+    color: #ccc;
+}
+
+.search-bar select option[value=""]:disabled {
+    display: none; 
+}
+
+/* .search-bar select option[value="job"] {
+    background-color: #f8d7da; 
+}
+
+.search-bar select option[value="project"] {
+    background-color: #cce5ff; 
+}
+
+.search-bar select option[value="internship"] {
+    background-color: #d4edda; 
+}
+
+.search-bar select option[value="research"] {
+    background-color: #fff3cd; 
+} */
+

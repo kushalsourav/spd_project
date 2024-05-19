@@ -1,0 +1,68 @@
+.stdashboard {
+    margin: 30px;
+    padding: 10px 30px 60px 30px;
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-rows: auto;
+    gap: 2%;
+    height: 85vh;
+    overflow: hidden;
+
+border-radius: 30px ;
+box-shadow: rgba(0, 0, 0, 0.132) 0px 0px 0px 1px, var(--secondary-color) 0px 0px 0px 1px inset;
+}
+.stdashboard_insights {
+    height: inherit;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    gap: 2%;
+}
+.stdashboard_events, .stdashboard_projects {
+    margin: 10px;
+    padding: 16px;
+}
+.stdashboard_h3 {
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    color: #fff;
+} .projects {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    overflow: hidden;
+}
+.events {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 10px;
+}
+
+.event_btn  {
+    padding: 12px 12px;
+width: 140px;
+border: 1px solid black;
+color: black;
+background: #ffffff;
+}
+
+.event_btn:hover {
+        background-color: black;
+        color: #ffffff;
+}
+
+.project_btn {
+    padding: 12px 12px;
+    width: 140px;
+    background-color: black;
+    color: #ffffff;
+    border: none;
+    outline: none;
+}
+.project_btn:hover {
+    border: 1px solid black;
+color: black;
+background: #ffffff;
+}

@@ -1,0 +1,39 @@
+.course-card {
+    background-color: var(--secondary-color);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    max-width: 400px; /* Set a maximum width for the card */
+    overflow: hidden; /* Hide overflowing content */
+  }
+  
+  .course-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    overflow: hidden; /* Hide overflowing content */
+    text-overflow: ellipsis; /* Show ellipsis (...) for overflow */
+    white-space: nowrap; /* Prevent wrapping */
+  }
+  
+  .course-card p {
+    margin-bottom: 10px;
+    overflow: hidden; /* Hide overflowing content */
+    text-overflow: ellipsis; /* Show ellipsis (...) for overflow */
+    white-space: nowrap; /* Prevent wrapping */
+  }
+  
+  .course-card a {
+    display: block;
+    margin-bottom: 10px;
+    color: var(--secondary-color-a);
+    text-decoration: none;
+    overflow: hidden; /* Hide overflowing content */
+    text-overflow: ellipsis; /* Show ellipsis (...) for overflow */
+    white-space: nowrap; /* Prevent wrapping */
+  }
+  
+  .course-card a:hover {
+    text-decoration: underline;
+  }
+  

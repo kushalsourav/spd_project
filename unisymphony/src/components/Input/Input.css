@@ -1,0 +1,23 @@
+.form-control {
+    display: flex;
+    flex-direction: column;
+    width: -webkit-fill-available;
+    padding: 10px 25px;
+    gap: 5px;
+    justify-items: flex-start;
+
+    
+}
+.form-label {
+    color: #F1F1F4;
+    font-size: 14px;
+}
+.input {
+    padding: 15px 30px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: #F1F1F4;
+    background-color: var(--secondary-color-a);
+}

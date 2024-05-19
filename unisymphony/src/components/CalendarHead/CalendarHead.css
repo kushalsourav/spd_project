@@ -1,0 +1,61 @@
+.calendarhead {
+    margin: 10px;
+    padding: 10px;
+}
+
+.calendarhead_body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.calendarhead_heading {
+    font-size: 44px;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+.calendarhead_toggle {
+    letter-spacing: 1px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+}
+.calendarhead_toggle > .calendarhead_toggler {
+    padding: 8px 14px 10px 14px;
+    border:  1px solid #878787;
+    border-radius: 5px;
+}
+
+.calendarhead_toggle > .calendarhead_toggler:hover {
+    color: #fff;
+    background-color: black;
+
+}
+
+.calendarhead_dates {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.calendarhead_icon {
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #d2d2d2;
+    border-radius: 5px;
+    padding:8px 8px 5px 8px;
+}
+
+.calendarhead_btn {
+    background-color: black;
+    color:#fff;
+    padding: 10px 22px;
+    outline: none;
+    border: none;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    border-radius: 5px;
+}
+.calendarhead_btn-icon {
+    margin-right: 10px;
+}

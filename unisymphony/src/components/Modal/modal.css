@@ -1,0 +1,20 @@
+.modal {
+    background-color:  rgba(35, 47, 52, 0.799);
+    height: 100vh;
+    position: relative !important; 
+    z-index: 999999999 !important; 
+}
+.modal-close {
+    height: 40px;
+    width:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 5%;
+    left: 90%;
+    border-radius: 50%;
+    color: var(--white);
+    background-color: var(--secondary-color-a);
+    
+}

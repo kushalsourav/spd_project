@@ -1,0 +1,96 @@
+.dashboard-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    color: black;
+  }
+  
+  .dashboard-title {
+    text-align: center;
+    grid-column: 1 / -1;
+  }
+  
+  .card {
+    background-color: var(--secondary-color);
+
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  .card-title {
+    margin-top: 0;
+  }
+  
+  .recent-opportunities {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+  
+  .upcoming-events {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+  
+  .discussion-forums {
+    grid-column: 1 / -1;
+    grid-row: 3 / 4;
+  }
+  
+  .quick-links {
+    grid-column: 1 / -1;
+    grid-row: 4 / 5;
+  }
+  
+  .quick-links ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .quick-links li {
+    margin-bottom: 10px;
+  }
+  
+  .quick-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .quick-links a:hover {
+    color: #555;
+  }
+  
+
+
+
+  .opportunities-feed {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .opportunities-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .opportunity-card {
+    background-color: var(--secondary-color);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .opportunity-card h3 {
+    margin-top: 0;
+  }
+  
+  .opportunity-card p {
+    margin-bottom: 10px;
+  }
+  
+
+
+  

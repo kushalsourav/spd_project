@@ -1,0 +1,18 @@
+.form {
+    width: 100%;
+}
+.form-button {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 15px 30px;
+    margin: 10px 25px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: #121213;
+    background-color: var(--white);
+    width: -webkit-fill-available;
+    justify-content: center;
+}

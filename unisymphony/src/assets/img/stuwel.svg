@@ -1,0 +1,11 @@
+<svg width="1140" height="124" xmlns="http://www.w3.org/2000/svg">
+    <g id="Layer_1">
+      <title>Layer 1</title>
+      <ellipse ry="62" rx="61" id="svg_1" cy="62" cx="50" stroke="#fff" fill="none">
+        <animate attributeName="cx" from="50" to="794" dur="5s" fill="freeze" />
+      </ellipse>
+      <line id="svg_2" y2="62" x2="1140" y1="61.60001" x1="855" stroke="#fff" fill="none"/>
+      <line id="svg_3" y2="61.60001" x2="0" y1="61.60001" x1="733" stroke="#fff" fill="none"/>
+    </g>
+  </svg>
+   

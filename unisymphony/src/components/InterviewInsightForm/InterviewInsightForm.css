@@ -1,0 +1,60 @@
+/* InterviewInsightForm.css */
+.interviewinsightsform {
+    max-width: 600px;
+    margin: auto;
+}
+
+.interviewinsightsform__title {
+    text-align: center;
+}
+
+.interviewinsightsform__formGroup {
+    margin-bottom: 20px;
+}
+
+.interviewinsightsform label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.interviewinsightsform input[type="text"],
+.interviewinsightsform textarea,
+.interviewinsightsform input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.interviewinsightsform textarea {
+    height: 100px;
+}
+
+.interviewinsightsform__addButton,
+.interviewinsightsform__submitButton {
+    background-color: var(--secondary-color-a);
+    color: var(--white);
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.interviewinsightsform__addButton:hover,
+.interviewinsightsform__submitButton:hover {
+    background-color: var(--secondary-color);
+    border: 1px solid var(--secondary-color-a);
+    color: var(--secondary-color-a);
+}
+
+.interviewinsightsform__questionsList {
+    margin-top: 20px;
+}
+
+.interviewinsightsform__questionsList ol {
+    list-style-type: decimal;
+}

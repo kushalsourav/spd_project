@@ -1,0 +1,71 @@
+.subjectcard {
+    width: auto;
+    height: auto;
+    background-color: cadetblue;
+    background-size: auto;
+    
+}
+
+.subjectcard_body {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 20px 0  0 20px ;
+    padding: 10px;
+}
+.subjectcard_day {
+    font-size: 12px;
+}
+.subjectcard_name {
+    font-weight: 400;
+    font-size: 22px;
+}
+.subjectcard_performance {
+    font-size: 12px;
+}
+.subjectcard:nth-of-type(1) {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 20px;
+    background-color: #6495ed;
+    color: #fff;
+  
+}
+.subjectcard:nth-of-type(2) {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #ff6565;
+}
+.subjectcard:nth-of-type(3) {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 50px;
+    background-color: #cddb38;
+}
+
+.subjectcard:nth-of-type(4) {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: #4edc41;
+    color: #fff;
+}
+ .subjectcard:nth-of-type(5) {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: #2bd5f3;
+}
+.subjectcard:nth-of-type(6) {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: lightgoldenrodyellow;
+}

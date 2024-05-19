@@ -1,0 +1,48 @@
+/* InterestSelection.css */
+.interests-container {
+    width: auto;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.interests-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.interest-item {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 40px 70px;
+    margin: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.interest-item.selected {
+    background-color: var(--secondary-color-a);
+    color: var(--white);
+}
+
+.selected-interests {
+    margin-top: 20px;
+}
+
+.selected-interests ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.selected-interests ul li {
+    margin-bottom: 5px;
+}
+
+.submit-int {
+    padding: 14px 20px;
+    border: none;
+    background-color: var(--secondary-color-a);
+    color: var(--white);
+}

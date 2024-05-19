@@ -1,0 +1,8 @@
+.discussionboard {
+    display: grid;
+    grid-template-columns: 200px 12% auto;
+    grid-template-rows: auto;
+    gap: 2%;
+    height: 100vh;
+    overflow: hidden;
+}

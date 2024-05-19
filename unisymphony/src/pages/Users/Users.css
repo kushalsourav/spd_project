@@ -1,0 +1,6 @@
+.users {
+    display: grid;
+    grid-template-columns:  auto;
+    grid-template-rows: auto;
+    height: 100vh;
+}

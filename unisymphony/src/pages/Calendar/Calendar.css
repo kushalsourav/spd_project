@@ -1,0 +1,11 @@
+.calendar {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    height: 100vh;
+}
+
+.calendar_abs {
+    margin: 0px 20px;
+    margin-left: 50px;
+}

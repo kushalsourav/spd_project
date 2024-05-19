@@ -1,0 +1,26 @@
+/* WebsiteInput.css */
+.website-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.website-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.website-input {
+    width: 30%;
+    padding: 13px 15px;
+    border: 1px solid var(--secondary-color-a);
+    background-color: var(--secondary-color);
+    color: var(--white);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.website-input:focus {
+    outline: none;
+}
+

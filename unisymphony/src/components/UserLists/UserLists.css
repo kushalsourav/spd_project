@@ -1,0 +1,39 @@
+.user-lists {
+    width: 80%;
+    margin: 20px auto 0 auto;
+}
+.users-list {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 40px;
+}
+.user-search {
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    margin:  0 auto;
+}
+
+
+.user-search [type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .user-search button {
+    background-color: var(--secondary-color-a);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .user-search button:hover {
+    background-color: var(--primary-color);
+  }

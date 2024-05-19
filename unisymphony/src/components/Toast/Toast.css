@@ -1,0 +1,25 @@
+.toast {
+    position: absolute;
+    top: 75%;
+    right: 7%;
+}
+.toast-{
+    display: none;
+}
+.toast {
+    width: 18.75rem;
+    padding: 0.75rem;
+    background-color: #1f1f20;
+    color: #f1f1f1;
+    text-align: center;
+}
+
+.toast-warning {
+    background-color: #E15E42;
+    width: 18.75rem;
+}
+
+.toast-success {
+    background-color: #82D520;
+    width: 18.75rem;
+}

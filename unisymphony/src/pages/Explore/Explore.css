@@ -1,0 +1,25 @@
+.explore {
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-template-rows: auto;
+    height: 100vh;
+    overflow: hidden;
+}
+.explore_content {
+    overflow-y: scroll;
+    margin: 20px;
+    padding: 40px;
+}
+
+.explore_list {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    align-items: center;
+    
+}
+
+
+.explore_content::-webkit-scrollbar {
+    display: none;
+ }

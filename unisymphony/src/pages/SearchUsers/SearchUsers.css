@@ -1,0 +1,5 @@
+.search_users {
+    display: grid;
+    grid-template-columns: 200px auto;
+    height: 100vh;
+}

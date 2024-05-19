@@ -1,0 +1,54 @@
+/* SkillSelection.css */
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+
+
+.skill-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill-item {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: 1px solid var(--secondary-color-a);
+}
+
+.skill-item:hover {
+    background-color: var(--secondary-color);
+}
+
+.selected {
+    background-color: var(--secondary-color-a);
+    color: var(--white);
+
+}
+
+.submit-prf-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: var(--secondary-color-a);
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-skill:hover {
+    background-color: #0056b3;
+}

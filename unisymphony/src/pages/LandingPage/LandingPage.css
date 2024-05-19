@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+.landing-page {
+    position: relative;
+
+}
+body {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.landing-header > h1 {
+    text-align: center;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-60%);
+    font-weight: 100;
+    font-size: 10rem;
+    letter-spacing: 2px;
+    
+}
+
+.landing-btns {
+    float: right;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+.ln-btn1, .ln-btn2 {
+    color: var(--white);
+    text-decoration: none;
+    margin: 10px;
+    padding: 8px 16px 10px 16px;
+    border: 2px solid var(--white);
+    letter-spacing: 1px;
+    font-size: 14px;
+    line-height: 1rem;
+    font-weight: 500;
+}
+.landing-header {
+    width: 100%;
+    height: 60vh;
+}
+
+.landing-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.landing-card {
+    background-color: transparent;
+    border-radius: 8px;
+    
+    width: 300px;
+    text-align: center;
+
+}
+
+/* LandingPage.css */
+/* 
+.landing-card {
+    background-color: transparent;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    position: relative;
+}
+
+.landing-card::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: calc(100% + 20px);
+    height: calc(100% + 20px);
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    animation: rotateBorder 4s linear infinite;
+}
+
+@keyframes rotateBorder {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.landing-card h2 {
+    color: #333;
+}
+
+.landing-card p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+} */
+
+.landing-card {
+    position: relative;
+    background-color: transparent;
+    border-radius: 10px;
+    overflow: hidden;
+padding: 40px;
+    text-align: center;
+    margin:0 20px 20px 20px;
+}
+
+.border {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    animation: snakeBorder 4s infinite linear;
+}
+
+@keyframes snakeBorder {
+    0% {
+        stroke-dasharray: 0 360;
+    }
+    100% {
+        stroke-dasharray: 400 0;
+    }
+}
+
+.landing-card h2 {
+    color: var(--white);
+}
+
+.landing-card p {
+    color: var(--white);
+    margin-bottom: 20px;
+}
+

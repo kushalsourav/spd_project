@@ -1,0 +1,181 @@
+:root {
+  --numDays: 5;
+  --numHours: 10;
+  --timeHeight: 70px;
+  --calBgColor: #fff1f8;
+  --eventBorderColor: #f2d3d8;
+  --eventColor1: #ffd6d1;
+  --eventColor2: #fafaa3;
+  --eventColor3: #e2f8ff;
+  --eventColor4: #d1ffe6;
+}
+.ReactModal__Overlay {
+  position: relative;
+  z-index: 9999;
+}
+.calendar_body {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: auto 1fr;
+  margin: 2rem;
+  position: relative;
+}
+
+.timeline {
+  width: 103.5%;
+  margin-left: -50px;
+  display: grid;
+  grid-template-rows: repeat(var(--numHours), var(--timeHeight));
+  position: absolute;
+  height: fit-content;
+  z-index: 1;
+}
+
+.time-marker {
+  width: 100%;
+  height: 70px;
+  border: 1px dotted #b7b7b7;
+  padding: 20px 8px 0 8px;
+  font-size: 14px;
+
+
+  /* background-image: repeating-linear-gradient(to right, black 0%, black 50%, transparent 50%, transparent 100%), repeating-linear-gradient(to right, black 0%, black 50%, transparent 50%, transparent 100%), repeating-linear-gradient(to bottom, black 0%, black 50%, transparent 50%, transparent 100%), repeating-linear-gradient(to bottom, black 0%, black 50%, transparent 50%, transparent 100%);
+  background-position: left top, left bottom, left top, right top;
+  background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+  background-size: 50px 0px, 30px 2px, 0px 40px, 0px 50px; */
+
+}
+
+.days {
+  display: grid;
+  grid-column: 2;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+
+.calendar_events {
+  display: grid;
+  grid-template-rows: repeat(var(--numHours), var(--timeHeight));
+  border-radius: 5px;
+  border-left: 1px dashed #c5c5c5;
+  
+}
+
+.start-09 {
+  grid-row-start: 1;
+
+}
+
+.start-10 {
+  grid-row-start: 2;
+
+}
+.start-11 {
+  grid-row-start: 3;
+}
+
+.start-12 {
+  grid-row-start: 4;
+}
+
+.start-13 {
+  grid-row-start: 5;
+}
+
+.start-14 {
+  grid-row-start: 6;
+}
+.start-15 {
+  grid-row-start: 7;
+}
+
+.start-16 {
+  grid-row-start: 8;
+}
+
+
+.end-11 {
+  grid-row-end: 3;
+}
+.end-12 {
+  grid-row-end: 4;
+}
+
+.end-13 {
+  grid-row-end: 5;
+}
+.end-14 {
+  grid-row-end: 6;
+}
+.end-15 {
+  grid-row-end: 7;
+}
+
+.end-16 {
+  grid-row-end: 8;
+}
+
+.end-17 {
+  grid-row-end: 9;
+}
+
+
+
+.title {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.calendar_event {
+  border: 1px solid var(--secondary-color-a);
+  border-radius: 5px;
+  padding: 1rem;
+  background: var(--secondary-color-a);
+  z-index: 99;
+}
+
+.space,
+.date {
+  height: 60px
+}
+
+
+
+.corp-fi {
+  background: var(--secondary-color-a);
+}
+
+.ent-law {
+  background: var(--secondary-color-a);
+}
+
+.writing {
+  background: var(--secondary-color-a);
+}
+
+.securities {
+  background: var(--secondary-color-a);
+}
+
+.date {
+  display: flex;
+  gap: 1em;
+  margin-bottom: 10px;
+  justify-content: center;
+
+}
+
+.date-num {
+  font-size: 3rem;
+  font-weight: 600;
+  display: inline;
+}
+
+.date-day {
+  display: inline;
+  font-size: 2.5rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+}

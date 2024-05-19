@@ -1,0 +1,159 @@
+.auth-box {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    height: 700px;
+    width: 500px;
+    margin: 25px;
+    border: 1px solid var(--white);
+    border-radius: 20px;
+    background-color: var(--secondary-color);
+    padding: 16px;
+    float: right;
+    background-position: center;
+    background-position-y: 0px;
+    background-clip:padding-box;
+}
+
+.box-1 {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    width: 470px;
+    justify-content: space-between;
+    padding: 0 16px;
+}
+.box-header {
+    color: #F1F1F4;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+.box-round {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: #F1F1F4;
+    background-color: #313131;
+    position: relative;
+}
+.icon-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.box-2 {
+   width: 470px;
+   height: 300px;
+   background-color: #2b2b2b;
+   border-radius: 20px;
+   z-index: 1;
+   position: relative;
+   overflow: hidden;
+}
+.box-3 {
+    width: 470px;
+    height: 300px;
+    background-color: #15ad70;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.polygon-1 {
+    display: block;
+    mask-image: linear-gradient(to bottom, #15ad70 ,#15ad70);
+    height: 360px;
+    width: 25px;
+    z-index: 20;
+    background-color: #575759;
+    transform: rotate(32deg);
+    position: absolute;
+    top: -30px;
+    right: 80px;
+}
+.polygon-2 {
+    display: block;
+    mask-image: linear-gradient(to bottom, #15ad70 ,#15ad70);
+    height: inherit;
+    width: 25px;
+    z-index: 20;
+    background-color: #575759;
+    transform: rotate(10deg);
+    position: absolute;
+    top: -5px;
+    left: 90px;
+}
+.polygon-3 {
+    display: block;
+    height: inherit;
+    width: 100%;
+    z-index: 20;
+    clip-path: polygon(0% 0%, 0% 100%, 5% 99%, 5% 15%, 10% 100%, 15% 100%, 9% 0);
+    background-color: #575759;
+    position: absolute;
+    left: 35%;
+    overflow: hidden;
+}
+
+.svg-zigzag {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 500px;
+    z-index: 20;
+}
+.svg-tri {
+    position: absolute;
+    top: 120px;
+    right: 135px;
+    z-index: 20;
+
+}
+.auth-text {
+    position: relative;
+    padding: 20px 0 0 20px ;
+    z-index: 100;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+.text-1 {
+    color: #15ad70;
+}
+.text-2 {
+    color: #1f1f20;
+}
+.auth-btn-1 {
+    color: #1f1f20;
+    background-color: #15ad70;
+}
+.auth-btn-2 {
+    color: #f1f1f1;
+    background-color: #1f1f20;
+}
+.auth-btn-pos {
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    z-index: 24;
+}
+@media (max-width:320px) {
+    body {
+        height: 100%;
+    }
+    .auth-box {
+        float: none;
+        margin: 20px auto;
+        height: 100vh;
+    }
+}
+@media (max-width:768px) {
+    .auth-box {
+        float: none;
+        margin: 20px auto;
+        max-height: max-content;
+    }
+}

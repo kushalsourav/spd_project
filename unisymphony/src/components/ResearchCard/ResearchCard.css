@@ -1,0 +1,34 @@
+/* ResearchCard.css */
+
+.research-card {
+  background-color: var(--secondary-color);
+    color: var(--white);
+    border-radius: 10px; 
+    padding: 20px; 
+    margin-bottom: 20px;
+  }
+  
+  .research-card-content {
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .research-card-title {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+  
+  }
+  
+  .research-card-description {
+    margin-top :20px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+  
+  .research-card-details {
+    margin-top: 10px;
+    font-size: 14px;
+
+  }
+  
